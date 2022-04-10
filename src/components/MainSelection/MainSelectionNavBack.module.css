@@ -1,0 +1,12 @@
+.navBack {
+    position: absolute;
+    top: 90px;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    z-index: 10000;
+}
+
+.navBack:hover {
+    color: #d45cff;
+}

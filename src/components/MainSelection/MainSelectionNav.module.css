@@ -1,0 +1,140 @@
+.navItems {
+  position: fixed;
+  height: 250px;
+  width: 200px;
+  top: 33%;
+  right: -2px;
+  background-color: #00000050;
+  border: 1px solid #3b3b3b;
+  z-index: 1000;
+  border-radius: 15px 0px 0px 15px;
+  font-weight: 700;
+}
+
+.selection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-size: 15px;
+  color: white;
+  height: 100%;
+}
+
+.close {
+  font-size: 30px;
+  position: relative;
+  left: 10px;
+  bottom: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: rgb(255, 255, 255); /* Fallback for older browsers */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.trans {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 20px;
+  color: rgb(255, 255, 255); /* Fallback for older browsers */
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.current {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.input {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255); /* Fallback for older browsers */
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 10px;
+}
+
+.brushIcon {
+  position: relative;
+  right: 4px;
+  font-size: 15px;
+}
+
+.downloadWrapper {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+  background: none;
+  color: inherit;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 5px;
+  border-radius: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.downloadReady { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  text-align: center;
+  background: none;
+  color: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding: 5px;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.downloadReady:hover {
+  color: white;
+  background-color: #d45cff;
+  border: 2px solid #d45cff;
+}
+
+@media screen and (max-width: 850px) {
+  .navArrow {
+    font-size: 20px;
+  }
+}

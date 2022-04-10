@@ -1,0 +1,69 @@
+.NavbarItems {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #3b3b3b;
+    background-color: rgba(0, 0, 0, 0.082);
+    z-index: 15000;
+    overflow: hidden;
+}
+
+.navbarLogo {
+    color: #fff;
+    justify-self: start;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.hoverUnderlineAnimation {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .hoverUnderlineAnimation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: #BD00FF;
+    transform-origin: bottom right;
+    transition: transform 0.30s ease-out;
+}
+  
+.hoverUnderlineAnimation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.about {
+    margin-right: 25px;
+    background-color: transparent;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 25px;
+    width: 125px;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.about:hover {
+    background-color: #BD00FF;
+    border: 2px solid #BD00FF;
+}
+
+@media screen and (max-width: 1000px){
+
+}

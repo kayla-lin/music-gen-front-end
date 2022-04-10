@@ -1,0 +1,49 @@
+.intro {
+    margin: 20px;
+}
+.header {
+    font-size: 60px;
+}
+
+.intro p {
+    font-size: 15px;
+}
+
+.sampleElements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 550px) {
+    .header {
+        font-size: 40px;
+    }
+
+    .intro {
+        margin: 3px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 420px) {
+    .intro p {
+
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .header {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px) {
+    .intro p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 280px) {
+    .intro p {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

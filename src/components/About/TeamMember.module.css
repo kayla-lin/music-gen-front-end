@@ -1,0 +1,40 @@
+:root {
+  --size: 200px;
+}
+
+.member {
+  width: var(--size);
+  height: var(--size);
+}
+
+.desc {
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.desc p {
+  color:#d45cff;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.image {
+  margin: 0px;
+  padding: 0px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 100px;
+}

@@ -1,0 +1,232 @@
+.wrapper {
+  position: fixed;
+  left: 0;
+  bottom: -5px;
+  margin: 0px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.audioPlayer {
+  --primary: #ea98ed;
+  --secondary: #fff;
+  --muted: #ea98ed;
+  --back: #000000;
+  --font: "Lato", sans-serif;
+  width: 700px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.volIcon {
+  position: relative;
+  right: 5px;
+  color: white;
+  font-size: 25px;
+}
+
+.volume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+}
+
+.midcontrols {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 10px;
+}
+
+/* Toggle Loop Button */
+
+.loop {
+  background-color: transparent;
+  border: 0px; 
+  color: var(--primary);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 15px;
+}
+
+.notLoop:hover {
+  color: white;
+}
+
+.notLoop {
+  color: var(--muted);
+}
+
+/* Play/Pause Button */
+
+.playPause:hover {
+  background-color: var(--muted);
+  border: 3px solid var(--muted);
+}
+
+.playPause:focus, .loop:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.playPause {
+  background-color: white;
+  border: 3px solid var(--secondary);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  font-size: 15px;
+  color: var(--back);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -2px;
+
+}
+
+.play {
+  position: relative;
+  left: 1px;
+}
+
+.pause {
+  position: relative;
+  right: 0.5px;
+}
+
+
+.audioVisual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.currentTime,
+.duration {
+  font-family: var(--font);
+  font-size: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.progressBar {
+  --barBG: #343434;
+  --seek-before-width: 0px;
+  --seek-before-color: #fff;
+  --knobby: white;
+  --selectedKnobby: #ea98ed;
+  --knobby-width: 0px;
+  --height: 3px;
+
+  appearance: none;
+  background-color: var(--barBG);
+  height: var(--height);
+  position: relative;
+  width: 100%;
+  outline: none;
+}
+
+/* for safari */
+.progressBar::-webkit-slider-runnable-track {
+  background-color: var(--barBG);
+  position: relative;
+  width: 100%;
+  outline: none;
+}
+
+/* for firefox */
+.progressBar::-moz-range-track {
+  background-color: var(--barBG);
+
+  position: relative;
+  width: 100%;
+  outline: none;
+}
+
+.progressBar::-moz-focus-outer {
+  border: 0px;
+}
+
+/* for safari and chrome */
+.progressBar::before {
+  content: "";
+  height: var(--height);
+  width: var(--seek-before-width);
+  background-color: var(--seek-before-color);
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* for firefox */
+.progressBar::-moz-range-progress {
+  background-color: var(--seek-before-color);
+  height: var(--height);
+}
+
+/* knobby for chrome and safari */
+.progressBar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  /*height: 15px; */
+  height: var(--height);
+  width: var(--knobby-width);
+  background-color: var(--primary);
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+.progressBar:active::-webkit-slider-thumb {
+  transform: scale(1.2);
+  background: var(--selectedKnobby);
+}
+
+/* knobby for firefox */
+.progressBar::-moz-range-thumb {
+  height: var(--height);
+  width: var(--height);
+  border: transparent;
+  background-color: var(--knobby);
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+  box-sizing: border-box;
+}
+
+.progressBar:active:-moz-range-thumb {
+  transform: scale(1.2);
+  background: var(--selectedKnobby);
+}
+
+.canva {
+  z-index: 100;
+  padding: 0;
+  margin: auto;
+  display: block;
+
+}
+
+@media screen and (max-width: 420px){
+  .volume {
+    display: none;
+  }
+}

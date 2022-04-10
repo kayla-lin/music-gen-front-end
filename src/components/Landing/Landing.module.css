@@ -1,0 +1,96 @@
+/* Wrap entire page for formatting, center */
+.wrapper {
+    color: white;
+    position: absolute;
+    left: 60px;
+    top: 40%;
+    
+}
+
+/* Introduction Text */
+.wrapper h1 {
+    font-size: 90px;
+    
+}
+.tagLine {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.start-button:hover {
+    background-color: #d45cff;
+}
+.start-button {
+    padding: 8px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: none;
+    color: #211F23;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: white;
+    
+}
+.playIcon {
+    position: relative;
+    font-size: 12px;
+    left: 10px;
+    top: 1px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.customFileUpload {
+    border: 2px solid #ccc;
+    border-radius: 30px;
+    font-weight: 700;
+    padding: 8px 25px 8px 25px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 10px 0px 10px;
+}
+
+/* Background SVG */
+@media screen and (max-width: 768px){
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper {
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+    }
+
+    .intro {
+        padding: 0px;
+        overflow: hidden;
+    }
+    
+    .intro h1 {
+        padding: 0px;
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .tagLine {
+        font-size: 14px;
+    }
+
+    .genreGo {
+        position: relative;
+        bottom: 20px;
+    }
+    .customFileUpload {
+        margin-top: 10px;
+    }
+}

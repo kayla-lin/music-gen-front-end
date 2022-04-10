@@ -1,0 +1,19 @@
+.wrapper {
+    height: 100vh;
+    border: 3px;
+    box-sizing: border-box;
+    color: white;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: rgb(81,11,106);
+    background: linear-gradient(0deg, rgba(81,11,106,1) 0%, rgba(33,31,35,1) 49%); 
+}

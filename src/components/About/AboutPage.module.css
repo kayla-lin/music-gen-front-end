@@ -1,0 +1,89 @@
+.pageWrapper {
+  max-width: 1000px;
+  margin-right: auto; /* 1 */
+  margin-left: auto; /* 1 */
+  padding-right: 30px; /* 3 */
+  padding-left: 30px; /* 3 */
+  padding-bottom: 30px;
+  position: relative;
+  top: 100px;
+}
+
+.intro {
+  color: #ffffff;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.intro h1 {
+  text-align: left;
+  font-size: 90px;
+  border-bottom: 1px solid #3b3b3b;
+  width: 400px;
+}
+
+.intro h2 {
+  font-size: 40px;
+}
+
+.intro p {
+  hyphens: auto;
+}
+
+.info {
+  padding: 25px 0px 25px 0px;
+}
+
+
+/* Member section */
+
+.teamTitle {
+  color: white;
+}
+
+.teamTitle h2 {
+  font-size: 40px;
+}
+
+.memberWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  border-top: 1px solid #3b3b3b;
+}
+
+.members {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+@media screen and (max-width: 760px) {
+  .members {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .members {
+    grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .intro h1 {
+    text-align: left;
+    font-size: 90px;
+    border-bottom: 1px solid #3b3b3b;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro h1 {
+    font-size: 60px;
+  }
+}

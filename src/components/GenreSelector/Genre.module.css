@@ -1,0 +1,119 @@
+/* Wrap entire page for formatting, center */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagerWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.intro {
+  margin: 20px;
+}
+.header {
+  font-size: 60px;
+}
+
+.intro p {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.classical {
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+
+.bit {
+  background-color: #21ac63;
+  background-image: linear-gradient(45deg, #21ac63 0%, #c9b733 100%);
+}
+.lofi {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #56599e 100%);
+}
+
+/* Buttons */
+.square {
+  border: 0px;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.square:hover {
+  transition: 1s;
+  background: #d45cff;
+}
+
+.bottomRight {
+  position: relative;
+  top: 100px;
+  text-align: left;
+  padding: 15px;
+  font-size: 30px;
+  font-weight: 700;
+  z-index: 3;
+}
+
+@media screen and (max-width: 850px) {
+  .header {
+    font-size: 50px;
+  }
+
+  .bottomRight {
+    font-size: 25px;
+    top: 70px;
+  }
+  .square {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .intro {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .header {
+    font-size: 30px;
+  }
+  .bottomRight {
+    position: static;
+    text-align: center;
+  }
+  .square {
+    width: 350px;
+    height: 80px;
+    margin: 10px;
+  }
+  .wrapper {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .square {
+    width: 300px;
+    height: 80px;
+  }
+
+}
+
+@media screen and (max-width: 325px) {
+  .square {
+    width: 250px;
+  }
+
+}
