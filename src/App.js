@@ -95,7 +95,7 @@ const App = () => {
       <div className="App">
         <Navbar changeStage={dispatchStage} stage={stage.stage}/>
         <Switch>
-          <Route path="/" exact>
+          <Route path="/music-gen-front-end" exact>
             <MainSelection
               userInput={input}
               setInput={setInput}
@@ -108,7 +108,7 @@ const App = () => {
               usedMidi={usedMidi}
             />
           </Route>
-          <Route path="/about" exact>
+          <Route path="/music-gen-front-end/about" exact>
             <About />
           </Route>
         </Switch>
