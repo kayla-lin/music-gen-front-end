@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/music-gen-front-end/static/css/main.ee376450.chunk.css",
-    "main.js": "/music-gen-front-end/static/js/main.454d33b4.chunk.js",
-    "main.js.map": "/music-gen-front-end/static/js/main.454d33b4.chunk.js.map",
+    "main.js": "/music-gen-front-end/static/js/main.34911458.chunk.js",
+    "main.js.map": "/music-gen-front-end/static/js/main.34911458.chunk.js.map",
     "runtime-main.js": "/music-gen-front-end/static/js/runtime-main.72f834e2.js",
     "runtime-main.js.map": "/music-gen-front-end/static/js/runtime-main.72f834e2.js.map",
     "static/js/2.b225eb6d.chunk.js": "/music-gen-front-end/static/js/2.b225eb6d.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.72f834e2.js",
     "static/js/2.b225eb6d.chunk.js",
     "static/css/main.ee376450.chunk.css",
-    "static/js/main.454d33b4.chunk.js"
+    "static/js/main.34911458.chunk.js"
   ]
 }
