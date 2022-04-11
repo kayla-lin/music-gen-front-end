@@ -2,7 +2,7 @@
 
 See: https://kayla-lin.github.io/music-gen-front-end/
 
-https://gyazo.com/73ed4ab1c54c012c06213befdeab30a5
+![alt text](https://gyazo.com/73ed4ab1c54c012c06213befdeab30a5)
 
 This is the front-end for GDSC's 2-semester-long community tech project. This interface will allow users to create their own artificial intelligence created music. Users can either upload their own sample to base the song on, or they can select from the provided options.
 
