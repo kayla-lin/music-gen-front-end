@@ -9,6 +9,7 @@ This is the front-end for GDSC's 2-semester-long community tech project. This in
 ## Technologies
 This is a React application created with help from:
 * Web Audio API
+* Canvas API
 * React Spring
 * Sample audio from: https://www.sessions.blue/
 
