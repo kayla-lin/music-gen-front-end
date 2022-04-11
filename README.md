@@ -1,7 +1,6 @@
 # GDSC Music Generation
 
 See: https://kayla-lin.github.io/music-gen-front-end/
-[link](https://kayla-lin.github.io/music-gen-front-end/){:target="_blank"}
 
 [![Music Visualizer](https://i.gyazo.com/73ed4ab1c54c012c06213befdeab30a5.png)](https://gyazo.com/73ed4ab1c54c012c06213befdeab30a5)
 
