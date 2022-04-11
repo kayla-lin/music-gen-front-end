@@ -19,7 +19,7 @@ class Navbar extends Component {
     return (
       <div>
         <nav className={styles.NavbarItems}>
-          <Link to="/">
+          <Link to="/music-gen-front-end">
             <h1
               onClick={this.handleHome}
               href="/"
@@ -28,7 +28,7 @@ class Navbar extends Component {
               Music Gen
             </h1>
           </Link>
-          <Link to="/about">
+          <Link to="/music-gen-front-end/about">
             <button className={styles.about}>About</button>
           </Link>
         </nav>
