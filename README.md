@@ -1,4 +1,4 @@
-# GDSC Music Generation
+# Artificial Intelligence Music Generator
 
 See: https://kayla-lin.github.io/music-gen-front-end/
 
