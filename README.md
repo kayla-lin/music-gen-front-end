@@ -2,7 +2,7 @@
 
 See: https://kayla-lin.github.io/music-gen-front-end/
 
-[![Image from Gyazo](https://i.gyazo.com/80d8c5d78df8ebd63f7cbb613b3cb731.png)](https://gyazo.com/80d8c5d78df8ebd63f7cbb613b3cb731)
+[![Image from Gyazo](https://i.gyazo.com/d105ba66a89b5019d3cc94de0380ddb9.png)](https://gyazo.com/d105ba66a89b5019d3cc94de0380ddb9)
 
 [![Music Visualizer](https://i.gyazo.com/73ed4ab1c54c012c06213befdeab30a5.png)](https://gyazo.com/73ed4ab1c54c012c06213befdeab30a5)
 
@@ -13,6 +13,7 @@ Currently, the model will only generate classical music, no matter the input you
 
 ## Technologies
 This is a React application created with help from:
+* UI created with Figma
 * Create React App
 * Web Audio API & Canvas API
 * React Spring
