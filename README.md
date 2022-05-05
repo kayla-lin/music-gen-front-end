@@ -2,7 +2,7 @@
 
 See: https://kayla-lin.github.io/music-gen-front-end/
 
-[![Image from Gyazo](https://i.gyazo.com/d105ba66a89b5019d3cc94de0380ddb9.png)](https://gyazo.com/d105ba66a89b5019d3cc94de0380ddb9)
+[![Image from Gyazo](https://i.gyazo.com/6a345a6478f891dea79af74883bff47f.jpg)](https://gyazo.com/6a345a6478f891dea79af74883bff47f)
 
 [![Music Visualizer](https://i.gyazo.com/73ed4ab1c54c012c06213befdeab30a5.png)](https://gyazo.com/73ed4ab1c54c012c06213befdeab30a5)
 
